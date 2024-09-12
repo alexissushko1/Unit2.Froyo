@@ -5,5 +5,11 @@ const stringArray = message.split(",");
 const flavors = [];
 
 function getAllFlavors (flavors) {
-  let getFlavor = 0;
+  const obj = {};
+    for (const flavor of flavors) {};
+    if(flavor in flavors) {
+      obj [flavor] += 1;
+    } else {
+      obj [flavor] = 1;
+    }
 }
