@@ -3,3 +3,7 @@ const message = prompt("Please enter,  each froyo flavor that you would like, fo
 const stringArray = message.split(",");
 
 const flavors = [];
+
+function getAllFlavors (flavors) {
+  let getFlavor = 0;
+}
